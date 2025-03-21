@@ -1,0 +1,108 @@
+/* Reset básico */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+  background-color: #f8f1e9;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo do header */
+header {
+  width: 90%;
+  text-align: center;
+  background-color: #fdf6e3;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  margin: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #4a3f35;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #6b5e48;
+  font-weight: 500;
+}
+
+/* Estilo do main */
+#jogo {
+  width: 90%;
+  max-width: 400px;
+  background-color: #fef0f0;
+  border-radius: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Estilo do h2 */
+h2 {
+  font-size: 1.8rem;
+  color: #5c4033;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* Estilo do label */
+label {
+  font-size: 1.5rem;
+  color: #6b5e48;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Estilo do input */
+input {
+  width: 100%;
+  max-width: 200px;
+  padding: 12px 15px;
+  border: 2px solid #e8d9c8;
+  border-radius: 15px;
+  font-size: 1rem;
+  color: #4a3f35;
+  background-color: #fff;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 12px 15px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 15px;
+  font-size: 1rem;
+
+  border: 2px solid #e8d9c8;
+}
+
+button:active {
+  background-color: #fff;
+}
+#resultado-container {
+  font-size: 36px;
+  text-align: center;
+}
+#resultado {
+  margin-top: 30px;
+}
+input:focus {
+  border-color: #d4a5a5;
+  box-shadow: 0 0 8px rgba(212, 165, 165, 0.4);
+  outline: none;
+}
