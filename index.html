@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Jogo de Adivinhação</h1>
+      <p>
+        O jogo irá gerar um número aleatório entre 1 e 100, e o jogador terá que
+        adivinhar qual é esse número. O jogo dará dicas ao jogador, dizendo se o
+        número chutado é maior ou menor que o número secreto. O jogo termina
+        quando o jogador acertar o número ou quando ele atingir um número máximo
+        de tentativas
+      </p>
+    </header>
+    <main>
+      <section id="jogo">
+        <h2>Jogo de Adivinhação</h2>
+        <label for="numero">Tente a sorte:</label>
+        <input
+          type="text"
+          id="numero"
+          name="numero"
+          placeholder="Digite seu numero"
+        />
+        <button onclick="tigrinho(event)">Chutar</button>
+      </section>
+      <section id="resultado-container">
+        <h2 id="dica">Dica:</h2>
+        <h2 id="tentativas">Tentativas Restantes: 10</h2>
+      </section>
+    </main>
+  </body>
+</html>
