@@ -15,7 +15,7 @@ function tigrinho(e) {
 
   if (numero === aleatorio) {
     document.getElementById("dica").innerText =
-      "🎉 Acertou!! O jogo vai reiniciar...";
+      "Acertou!! O jogo vai reiniciar...";
     setTimeout(reiniciar, 2000);
     return;
   }
@@ -24,7 +24,7 @@ function tigrinho(e) {
 
   if (cont === 0) {
     document.getElementById("dica").innerText =
-      "😞 Você perdeu! O jogo vai reiniciar...";
+      "Você perdeu! O jogo vai reiniciar...";
     setTimeout(reiniciar, 2000);
     return;
   }

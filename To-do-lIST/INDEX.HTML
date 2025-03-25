@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="escrever">
+        <h1>Lista de Tarefas</h1>
+        <div class="input-container">
+          <!-- Nova div para agrupar input e botão -->
+          <input type="text" name="tarefa" id="input-tarefa" />
+          <button id="botao" onclick="tarefa.adicionar()">+</button>
+        </div>
+        <span id="erro"></span>
+        <!-- Span fora, embaixo -->
+      </section>
+      <section id="tarefas">
+        <ul class="task-list"></ul>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
